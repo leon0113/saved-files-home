@@ -1,0 +1,104 @@
+{
+  "workbench.colorTheme": "Best Themes - Dark Phoenix",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1E1E2E",
+    "terminal.foreground": "#D9F5DD",
+    "terminalCursor.background": "#8AFF80",
+    "terminalCursor.foreground": "#8AFF80",
+    "terminal.ansiBlack": "#1B1D1E",
+    "terminal.ansiBlue": "#6A9FB5",
+    "terminal.ansiBrightBlack": "#505354",
+    "terminal.ansiBrightBlue": "#80D4FF",
+    "terminal.ansiBrightCyan": "#B5E5F9",
+    "terminal.ansiBrightGreen": "#A8FF60",
+    "terminal.ansiBrightMagenta": "#FF73FD",
+    "terminal.ansiBrightRed": "#FF6E67",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightYellow": "#FFFA72",
+    "terminal.ansiCyan": "#73FDFD",
+    "terminal.ansiGreen": "#69FF94",
+    "terminal.ansiMagenta": "#D7AFFF",
+    "terminal.ansiRed": "#FF5C57",
+    "terminal.ansiWhite": "#F8F8F2",
+    "terminal.ansiYellow": "#FFDB78"
+  },
+  "terminal.integrated.fontSize": 22,
+  "terminal.integrated.fontWeight": "bold",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.copyOnSelection": true,
+  "tabnine.experimentalAutoImports": true,
+  "editor.fontSize": 20,
+  "diffEditor.wordWrap": "on",
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "'cascadia code',Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "expand",
+  "editor.find.cursorMoveOnType": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  // "editor.minimap.enabled": false,
+  // "editor.wordWrap": "on",
+  //!------------------------
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "entity.name.tag.js.jsx",
+          "entity.name.tag.js.tsx",
+          "entity.name.tag.js",
+          "entity.name.tag.ts",
+          "meta.tag.attributes.tsx"
+        ],
+        "settings": {
+          "foreground": "#4af528"
+        }
+      }
+    ]
+  },
+  //!---------------------------------
+
+  "clang-format.executable": "/absolute/path/to/clang-format",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.codeActionsOnSave": {},
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "rapidapi.terminalLink.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "terminal.integrated.env.windows": {},
+  "workbench.iconTheme": "material-icon-theme",
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "chatgpt.lang": "en",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "npm.keybindingsChangedWarningShown": true,
+  "symbols.hidesExplorerArrows": false
+}
